@@ -23,9 +23,9 @@
         (import inputs.mobile-nixos {
           device = "pine64-pinephone";
         }).outputs.disk-image;
-      nixos-pinephonepro-image =
+      nixos-pinephone-pro-image =
         (import inputs.mobile-nixos {
-          device = "pine64-pinephone";
+          device = "pine64-pinephonepro";
         }).outputs.disk-image;
     };
 
